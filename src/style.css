@@ -1,0 +1,243 @@
+.scroll-container {
+    position: relative;
+    width: 100%;
+    height: 300vh; /* Ensures enough space for scrolling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px; /* Adds space between cards */
+  }
+  
+  .scroll-cards .overlap-group {
+    position: relative;
+    width: 1280px;
+    height: 2024px;
+    top: 1000px;
+    left: 80px;
+  }
+
+.card {
+    width: 80%;
+    max-width: 1000px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    opacity: 0; /* Initially hidden */
+    transform: scale(0.9); /* Starts smaller */
+}
+  
+  .scroll-cards .card {
+    top: 0;
+    position: relative;
+    width: 1280px;
+    height: 1024px;
+    left: 0;
+  }
+  
+  .scroll-cards .frame {
+    display: flex;
+    width: 1240px;
+    height: 800px;
+    justify-content: space-between;
+    padding: 100px;
+    top: 224px;
+    left: 20px;
+    background-color: #c0dce7;
+    border-radius: 120px;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .scroll-cards .div {
+    display: flex;
+    flex-direction: column;
+    width: 587px;
+    gap: 100px;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .scroll-cards .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Clash Display-Bold", Helvetica;
+    font-weight: 700;
+    color: #073f56;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .scroll-cards .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .scroll-cards .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #073f56;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .scroll-cards .text-wrapper-3 {
+    align-self: stretch;
+    color: #073f56;
+    position: relative;
+    font-family: "Clash Display-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .scroll-cards .arrow-button {
+    position: relative;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .scroll-cards .frame-wrapper {
+    top: 500px;
+    position: absolute;
+    width: 1280px;
+    height: 1024px;
+    left: 0;
+  }
+  
+  .scroll-cards .frame-3 {
+    width: 1260px;
+    height: 700px;
+    top: 324px;
+    left: 10px;
+    background-color: #e9aee4;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 100px;
+    position: relative;
+    border-radius: 120px;
+  }
+  
+  .scroll-cards .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Clash Display-Bold", Helvetica;
+    font-weight: 700;
+    color: #62095b;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .scroll-cards .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 0 0 auto;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .scroll-cards .text-wrapper-5 {
+    color: #62095b;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .scroll-cards .text-wrapper-6 {
+    align-self: stretch;
+    color: #62095b;
+    position: relative;
+    font-family: "Clash Display-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .scroll-cards .div-wrapper {
+    top: 1000px;
+    position: absolute;
+    width: 1280px;
+    height: 1024px;
+    left: 0;
+  }
+  
+  .scroll-cards .frame-5 {
+    width: 1280px;
+    height: 600px;
+    top: 424px;
+    background-color: #ceec8b;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 100px;
+    position: relative;
+    border-radius: 120px;
+  }
+  
+  .scroll-cards .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Clash Display-Bold", Helvetica;
+    font-weight: 700;
+    color: #445e09;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .scroll-cards .text-wrapper-8 {
+    color: #445e09;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .scroll-cards .text-wrapper-9 {
+    width: fit-content;
+    color: #445e09;
+    white-space: nowrap;
+    position: relative;
+    font-family: "Clash Display-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <title>OpusAI</title>
+    <meta name="description" content="Some inspiration for text animations on scroll." />
+    <meta name="keywords" content="typography, animation, on-scroll, gsap, ScrollTrigger" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/zda3gdw.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+    <script src="//tympanus.net/codrops/adpacks/analytics.js"></script>    
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const cards = document.querySelectorAll(".card");
+          
+          function handleScroll() {
+            const viewportHeight = window.innerHeight;
+        
+            cards.forEach((card) => {
+              const rect = card.getBoundingClientRect();
+              const offset = Math.max(0, viewportHeight - rect.top) / viewportHeight;
+        
+              // Apply animations only when the card is entering the viewport
+              if (rect.top < viewportHeight && rect.bottom > 0) {
+                card.style.opacity = Math.min(100, offset);
+                card.style.transform = `scale(${ .8 + offset * 0.1}) translateY(${offset * -20}px)`;
+              }
+            });
+          }
+        
+          window.addEventListener("scroll", handleScroll);
+          handleScroll(); // Run once on page load
+        });
+    </script>
+  </head>
+
+  <body class="demo-2">
+    <main>
+        <div class="frame">
+            <div class="frame__title">
+                <a aria-label="Back to the article" class="frame__title-back" href="https://tympanus.net/codrops/?p=69734">
+                    <span>Help</span>
+                    <svg width="18px" height="18px" viewBox="0 0 24 24">
+                        <path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
+                    </svg>
+                </a>
+            </div>
+            <a class="frame__prev" href="https://tympanus.net/Tutorials/LoopScrolling/">Team</a>
+            <nav class="frame__demos">
+                <a href="index2.html">Home</a>
+            </nav>
+        </div>
+        <div class="intro">
+            <h1 class="intro__title">
+                <span class="intro__title-pre">How it works</span>
+                <span class="intro__title-sub">OPUS AI<sup><small>2</small></sup></span>
+            </h1>
+        </div>
+        <div class="scroll-container">
+        <div class="scroll-cards">
+            <div class="card"> <!-- Landing Pages Card -->
+            <div class="frame">
+                <div class="div">
+                <div class="text-wrapper">Landing pages</div>
+                <div class="frame-2">
+                    <div class="text-wrapper-2">Starting from</div>
+                    <div class="text-wrapper-3">$1,999</div>
+                </div>
+                </div>
+            </div>
+            </div>
+    
+            <div class="card"> <!-- Corporate Card -->
+            <div class="frame-3">
+                <div class="div">
+                <div class="text-wrapper-4">Corporate</div>
+                <div class="frame-4">
+                    <div class="text-wrapper-5">Starting from</div>
+                    <div class="text-wrapper-6">$3,999</div>
+                </div>
+                </div>
+            </div>
+            </div>
+    
+            <div class="card"> <!-- Ecommerce Card -->
+            <div class="frame-5">
+                <div class="div">
+                <div class="text-wrapper-7">Ecommerce</div>
+                <div class="frame-4">
+                    <div class="text-wrapper-8">Starting from</div>
+                    <div class="text-wrapper-9">$5,999</div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="content content--full">
+                <h2 class="content__title" data-splitting data-effect28><span class="font-12 font-medium">Liberation</span></h2>
+            </div>
+        </div>
+        </div>
+    </main>
+  </body>  
+</html>
