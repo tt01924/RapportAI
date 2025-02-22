@@ -1,48 +1,24 @@
-# On-Scroll Typography Animations
+# KenomaAI
 
-Inspiration and ideas for on-scroll typography animations that add an extra layer of creativity to a website design.
+### A homepage to display an entrepreneurial idea between three UCL MSc Computer Science students.
 
-![Image Title](https://tympanus.net/codrops/wp-content/uploads/2023/01/OnScrollTypographyAnimations__feat.jpg)
+Built an engaging homepage using animation libraries, html, css, and vanilla JavaScript.
 
-[Article on Codrops](https://tympanus.net/codrops/?p=69734)
+![39151672-C3E3-433F-9A1C-8A21AB7B7285_1_201_a](https://github.com/user-attachments/assets/a449febf-9fb1-41ce-9c4d-2ce9592fa4ce)
 
-[Demo](http://tympanus.net/Development/OnScrollTypographyAnimations/)
+![F783016E-D65B-4656-BE69-51DF1C34209D_1_201_a](https://github.com/user-attachments/assets/21d841a4-0bc1-43ca-974e-e5976e7a3eb3)
 
+![D4E8A629-77A2-4ADF-8973-FD24F9203524_1_201_a](https://github.com/user-attachments/assets/afd45b80-ed07-44fe-b212-8ce0bc3f3943)
 
-## Installation
+<a href="https://github.com/tt01924">
+  <img src="https://avatars.githubusercontent.com/u/150555214?v=4" style="border-radius: 50%; width: 50px;">
+</a>
 
-Install dependencies:
+<a href="https://github.com/peaceES">
+  <img src="https://avatars.githubusercontent.com/u/88505176?v=4" style="border-radius: 50%; width: 50px;">
+</a>
 
-```
-npm install
-```
-
-Compile the code for development and start a local server:
-
-```
-npm start
-```
-
-Create the build:
-
-```
-npm run build
-```
-
-## Credits
-
-- Images from [Unsplash](https://unsplash.com/)
-
-## Misc
-
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
-
-## License
-[MIT](LICENSE)
-
-Made with :blue_heart:  by [Codrops](http://www.codrops.com)
-
-
-
-
+<a href="https://github.com/rheahemmadi">
+  <img src="https://avatars.githubusercontent.com/u/130392285?v=4" style="border-radius: 50%; width: 50px;">
+</a>
 
