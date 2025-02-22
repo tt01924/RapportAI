@@ -47,12 +47,12 @@
   .scroll-cards .window {
     display: flex;
     width: 1240px;
-    height: 800px;
+    /* height: 800px; */
     justify-content: space-between;
     padding: 100px;
     top: 224px;
     left: 20px;
-    background-color: #c0dce7;
+    background-color: #B68D40;
     border-radius: 120px;
     align-items: flex-start;
     position: relative;
@@ -73,7 +73,7 @@
     margin-top: -1.00px;
     font-family: "Clash Display-Bold", Helvetica;
     font-weight: 700;
-    color: #073f56;
+    color: #F4EBD0;
     font-size: 80px;
     letter-spacing: 0;
     line-height: normal;
@@ -95,7 +95,7 @@
     margin-top: -1.00px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
-    color: #073f56;
+    color: #F4EBD0;
     font-size: 24px;
     letter-spacing: 0;
     line-height: normal;
@@ -103,7 +103,7 @@
   
   .scroll-cards .text-wrapper-3 {
     align-self: stretch;
-    color: #073f56;
+    color: #F4EBD0;
     position: relative;
     font-family: "Clash Display-Bold", Helvetica;
     font-weight: 700;
@@ -131,7 +131,7 @@
     height: 700px;
     top: 324px;
     left: 10px;
-    background-color: #e9aee4;
+    background-color: #B68D40;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -146,7 +146,7 @@
     margin-top: -1.00px;
     font-family: "Clash Display-Bold", Helvetica;
     font-weight: 700;
-    color: #62095b;
+    color: #F4EBD0;
     font-size: 80px;
     letter-spacing: 0;
     line-height: normal;
@@ -162,7 +162,7 @@
   }
   
   .scroll-cards .text-wrapper-5 {
-    color: #62095b;
+    color: #F4EBD0;
     position: relative;
     align-self: stretch;
     margin-top: -1.00px;
@@ -175,7 +175,7 @@
   
   .scroll-cards .text-wrapper-6 {
     align-self: stretch;
-    color: #62095b;
+    color: #F4EBD0;
     position: relative;
     font-family: "Clash Display-Bold", Helvetica;
     font-weight: 700;
@@ -196,7 +196,7 @@
     width: 1280px;
     height: 600px;
     top: 424px;
-    background-color: #ceec8b;
+    background-color: #B68D40;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -211,14 +211,14 @@
     margin-top: -1.00px;
     font-family: "Clash Display-Bold", Helvetica;
     font-weight: 700;
-    color: #445e09;
+    color: #F4EBD0;
     font-size: 80px;
     letter-spacing: 0;
     line-height: normal;
   }
   
   .scroll-cards .text-wrapper-8 {
-    color: #445e09;
+    color: #F4EBD0;
     position: relative;
     align-self: stretch;
     margin-top: -1.00px;
@@ -231,7 +231,7 @@
   
   .scroll-cards .text-wrapper-9 {
     width: fit-content;
-    color: #445e09;
+    color: #F4EBD0;
     white-space: nowrap;
     position: relative;
     font-family: "Clash Display-Bold", Helvetica;

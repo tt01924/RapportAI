@@ -41,10 +41,10 @@ body {
 }
 
 .demo-2 {
-	--color-text: #ddc4a4;
+	--color-text: #B68D40;
     --color-bg: #0e0e0e;
-    --color-link: #ede3e3;
-    --color-link-hover: #d68521;
+    --color-link: #B68D40;
+    --color-link-hover: #F4EBD0;
 }
 
 /* Page Loader */

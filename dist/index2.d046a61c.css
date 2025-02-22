@@ -26,10 +26,10 @@ body {
 }
 
 .demo-2 {
-  --color-text: #ddc4a4;
+  --color-text: #b68d40;
   --color-bg: #0e0e0e;
-  --color-link: #ede3e3;
-  --color-link-hover: #d68521;
+  --color-link: #b68d40;
+  --color-link-hover: #f4ebd0;
 }
 
 .js .loading:before, .js .loading:after {
