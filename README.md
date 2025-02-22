@@ -1,8 +1,12 @@
 # KenomaAI
 
-### A homepage to display an entrepreneurial idea between three UCL MSc Computer Science students.
+## A homepage to display an entrepreneurial idea between three UCL MSc Computer Science students.
 
-Built an engaging homepage using animation libraries, html, css, and vanilla JavaScript.
+- Animation heavy website using libraries, html, css, and vanilla JavaScript.
+
+#### To Run:
+'npm install'
+'npm start'
 
 ![39151672-C3E3-433F-9A1C-8A21AB7B7285_1_201_a](https://github.com/user-attachments/assets/a449febf-9fb1-41ce-9c4d-2ce9592fa4ce)
 
