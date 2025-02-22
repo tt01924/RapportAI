@@ -308,7 +308,7 @@ main {
 }
 
 .content__title::before {
-	content: '.'counter(section);
+	/* content: '.'counter(section); */
 	font-weight: 400;
 	font-family: area-normal, sans-serif;
 	display: block;

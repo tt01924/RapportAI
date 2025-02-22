@@ -44,7 +44,7 @@
   left: 0;
 }
 
-.scroll-cards .frame {
+.scroll-cards .window {
   background-color: #c0dce7;
   border-radius: 120px;
   justify-content: space-between;
@@ -79,7 +79,7 @@
   position: relative;
 }
 
-.scroll-cards .frame-2 {
+.scroll-cards .window-2 {
   flex-direction: column;
   flex: none;
   align-items: flex-start;
@@ -118,7 +118,7 @@
   position: relative;
 }
 
-.scroll-cards .frame-wrapper {
+.scroll-cards .window-wrapper {
   width: 1280px;
   height: 1024px;
   position: absolute;
@@ -126,7 +126,7 @@
   left: 0;
 }
 
-.scroll-cards .frame-3 {
+.scroll-cards .window-3 {
   background-color: #e9aee4;
   border-radius: 120px;
   justify-content: space-between;
@@ -152,7 +152,7 @@
   position: relative;
 }
 
-.scroll-cards .frame-4 {
+.scroll-cards .window-4 {
   flex-direction: column;
   flex: none;
   align-items: flex-start;
@@ -192,7 +192,7 @@
   left: 0;
 }
 
-.scroll-cards .frame-5 {
+.scroll-cards .window-5 {
   background-color: #ceec8b;
   border-radius: 120px;
   justify-content: space-between;
