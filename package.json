@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index2.html --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index2.html --no-content-hash --no-source-maps --public-url ./",
+    "build:parcel": "parcel build src/index2.html --no-content-hash --no-source-maps --public-url '' && mv dist/index2.html dist/index.html",
     "build": "npm run clean && npm run build:parcel",
     "deploy": "gh-pages -d dist"
   }
