@@ -7,8 +7,10 @@
     "start": "parcel src/index2.html --open",
     "clean": "rm -rf dist/*",
     "build:parcel": "parcel build src/index2.html --no-content-hash --no-source-maps --public-url ./",
-    "build": "npm run clean && npm run build:parcel"
-  },
+    "build": "npm run clean && npm run build:parcel",
+    "deploy": "gh-pages -d dist"
+  }
+,
   "repository": {
     "type": "git",
     "url": "git://github.com/codrops/[NAME].git"
@@ -21,6 +23,7 @@
     "url": "https://github.com/codrops/[NAME]/issues"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.8.2"
   },
   "dependencies": {
