@@ -1,0 +1,242 @@
+.scroll-container {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 300vh;
+  display: flex;
+  position: relative;
+}
+
+.scroll-cards {
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.scroll-cards .overlap-group {
+  width: 1280px;
+  height: 2024px;
+  position: relative;
+  top: 1000px;
+  left: 80px;
+}
+
+.card {
+  opacity: 0;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
+  height: 600px;
+  transition: transform .3s ease-out, opacity .3s ease-out;
+  display: flex;
+  transform: scale(.9);
+}
+
+.scroll-cards .card {
+  width: 1280px;
+  height: 1024px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.scroll-cards .window {
+  background-color: #b68d40;
+  border-radius: 120px;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1240px;
+  padding: 100px;
+  display: flex;
+  position: relative;
+  top: 224px;
+  left: 20px;
+}
+
+.scroll-cards .div {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+  width: 587px;
+  display: flex;
+  position: relative;
+}
+
+.scroll-cards .text-wrapper {
+  color: #f4ebd0;
+  letter-spacing: 0;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: Clash Display-Bold, Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+
+.scroll-cards .window-2 {
+  flex-direction: column;
+  flex: none;
+  align-items: flex-start;
+  gap: 40px;
+  width: 355px;
+  display: flex;
+  position: relative;
+}
+
+.scroll-cards .text-wrapper-2 {
+  color: #f4ebd0;
+  letter-spacing: 0;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: Inter-Regular, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+
+.scroll-cards .text-wrapper-3 {
+  color: #f4ebd0;
+  letter-spacing: 0;
+  align-self: stretch;
+  font-family: Clash Display-Bold, Helvetica;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+
+.scroll-cards .arrow-button {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.scroll-cards .window-wrapper {
+  width: 1280px;
+  height: 1024px;
+  position: absolute;
+  top: 500px;
+  left: 0;
+}
+
+.scroll-cards .window-3 {
+  background-color: #b68d40;
+  border-radius: 120px;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1260px;
+  height: 700px;
+  padding: 100px;
+  display: flex;
+  position: relative;
+  top: 324px;
+  left: 10px;
+}
+
+.scroll-cards .text-wrapper-4 {
+  color: #f4ebd0;
+  letter-spacing: 0;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: Clash Display-Bold, Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+
+.scroll-cards .window-4 {
+  flex-direction: column;
+  flex: none;
+  align-items: flex-start;
+  gap: 40px;
+  display: inline-flex;
+  position: relative;
+}
+
+.scroll-cards .text-wrapper-5 {
+  color: #f4ebd0;
+  letter-spacing: 0;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: Inter-Regular, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+
+.scroll-cards .text-wrapper-6 {
+  color: #f4ebd0;
+  letter-spacing: 0;
+  align-self: stretch;
+  font-family: Clash Display-Bold, Helvetica;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+
+.scroll-cards .div-wrapper {
+  width: 1280px;
+  height: 1024px;
+  position: absolute;
+  top: 1000px;
+  left: 0;
+}
+
+.scroll-cards .window-5 {
+  background-color: #b68d40;
+  border-radius: 120px;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1280px;
+  height: 600px;
+  padding: 100px;
+  display: flex;
+  position: relative;
+  top: 424px;
+}
+
+.scroll-cards .text-wrapper-7 {
+  color: #f4ebd0;
+  letter-spacing: 0;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: Clash Display-Bold, Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+
+.scroll-cards .text-wrapper-8 {
+  color: #f4ebd0;
+  letter-spacing: 0;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: Inter-Regular, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+
+.scroll-cards .text-wrapper-9 {
+  color: #f4ebd0;
+  white-space: nowrap;
+  letter-spacing: 0;
+  width: fit-content;
+  font-family: Clash Display-Bold, Helvetica;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+/*# sourceMappingURL=index3.2cdaf7bc.css.map */

@@ -2,54 +2,53 @@
 <html lang="en" class="no-js">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>RapportAI</title>
-    <meta name="description" content="Real-Time AI Coaching for Business Development Representatives (BDRs)." />
-    <meta name="keywords" content="AI, BDR, Business, UCL" />
-    <meta name="author" content="Codrops" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="Real-Time AI Coaching for Business Development Representatives (BDRs).">
+    <meta name="keywords" content="AI, BDR, Business, UCL">
+    <meta name="author" content="Codrops">
+    <link rel="shortcut icon" href="/favicon.824cf0c5.ico">
     <link rel="stylesheet" href="https://use.typekit.net/zda3gdw.css">
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="/index2.d046a61c.css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        document.documentElement.className = "js";
-        var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
-        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
-    </script>
-    <script src="//tympanus.net/codrops/adpacks/analytics.js"></script>    
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
+    <script>document.documentElement.className = "js";
+var supportsCssVars = function() {
+    var e, t = document.createElement("style");
+    return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const cards = document.querySelectorAll(".card");
-          
-          function handleScroll() {
-            const viewportHeight = window.innerHeight;
-        
-            cards.forEach((card) => {
-              const rect = card.getBoundingClientRect();
-              const offset = Math.max(0, viewportHeight - rect.top) / viewportHeight;
-        
-              // Apply animations only when the card is entering the viewport
-              if (rect.top < viewportHeight && rect.bottom > 0) {
+</script>
+    <script src="//tympanus.net/codrops/adpacks/analytics.js"></script>    
+    <link rel="stylesheet" href="/index3.c05324f8.css">
+    <link rel="stylesheet" href="/index3.2cdaf7bc.css">
+
+    <script>document.addEventListener("DOMContentLoaded", function() {
+    const cards = document.querySelectorAll(".card");
+    function handleScroll() {
+        const viewportHeight = window.innerHeight;
+        cards.forEach((card)=>{
+            const rect = card.getBoundingClientRect();
+            const offset = Math.max(0, viewportHeight - rect.top) / viewportHeight;
+            // Apply animations only when the card is entering the viewport
+            if (rect.top < viewportHeight && rect.bottom > 0) {
                 card.style.opacity = Math.min(100, offset);
-                card.style.transform = `scale(${ .8 + offset * 0.1}) translateY(${offset * -20}px)`;
-              }
-            });
-          }
-        
-          window.addEventListener("scroll", handleScroll);
-          handleScroll(); // Run once on page load
+                card.style.transform = `scale(${.8 + offset * 0.1}) translateY(${offset * -20}px)`;
+            }
         });
-    </script>
+    }
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Run once on page load
+});
+
+</script>
   </head>
 
   <body class="demo-2">
     <main>
         <div class="frame">
             <nav class="frame__demos">
-                <a href="index2.html">Home</a>
+                <a href="/index2.html">Home</a>
             </nav>
         </div>
         <div class="intro">
@@ -96,5 +95,5 @@
         </div>
     </main>
     <script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
-  </body>  
+  <script src="/index3.2746efee.js"></script></body>  
 </html>
